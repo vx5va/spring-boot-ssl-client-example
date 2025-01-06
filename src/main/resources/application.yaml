@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sslclient
+  ssl:
+    bundle:
+      pem:
+        vics-bundle:
+          keystore:
+            certificate: "classpath:ssl/cert.pem"
+            private-key: "classpath:ssl/key.pem"
